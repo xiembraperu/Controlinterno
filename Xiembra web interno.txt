@@ -1,0 +1,302 @@
+Crea una aplicación web moderna llamada **Xiembra Control Center**, diseñada como el sistema central de gestión interna y toma de decisiones de Xiembra, una marca peruana de grajeas elaboradas con café tostado que se encuentra en etapa de pre-lanzamiento y validación comercial.
+
+La aplicación debe centralizar toda la información estratégica, comercial, operativa y financiera de la empresa en un solo lugar.
+
+## Objetivo principal
+
+Crear un dashboard interno que permita conocer en tiempo real el estado general de Xiembra y tomar decisiones basadas en información registrada.
+
+La aplicación debe tener una interfaz moderna, limpia, intuitiva, profesional y escalable. Utilizar una estética alineada con una marca natural, artesanal, premium y vinculada al café.
+
+## Módulos principales
+
+### 1. Dashboard General
+
+Mostrar indicadores principales:
+
+* Ventas totales.
+* Unidades vendidas.
+* Margen estimado.
+* Costos.
+* Inventario disponible.
+* Puntos de venta activos.
+* Prospectos comerciales.
+* Pedidos pendientes.
+* Cuentas por cobrar.
+* Alertas importantes.
+
+Incluir gráficos de evolución de ventas, distribución por canal y productos con mayor movimiento.
+
+### 2. Productos y Costos
+
+Permitir registrar y gestionar los productos de Xiembra.
+
+Cada producto debe incluir:
+
+* Nombre.
+* Código o SKU.
+* Presentación.
+* Gramaje.
+* Precio de venta.
+* Precio mayorista.
+* Costo de producción.
+* Margen estimado.
+* Estado del producto.
+
+Crear una estructura de costos detallada con:
+
+* Materia prima.
+* Empaque.
+* Etiquetas.
+* Mano de obra.
+* Producción.
+* Transporte.
+* Merma.
+* Otros costos.
+
+El sistema debe calcular automáticamente el costo total, costo unitario y margen estimado.
+
+### 3. Proveedores y Compras
+
+Crear una base de datos de proveedores.
+
+Registrar:
+
+* Nombre del proveedor.
+* Producto o servicio proporcionado.
+* Datos de contacto.
+* Precios.
+* Pedido mínimo.
+* Tiempo de entrega.
+* Condiciones de pago.
+* Historial de compras.
+* Estado del proveedor.
+
+Permitir visualizar cambios en los precios y detectar retrasos o dependencia de un solo proveedor.
+
+### 4. Inventario y Producción
+
+Controlar:
+
+* Inventario de materias primas.
+* Inventario de empaques y materiales.
+* Productos terminados.
+* Entradas y salidas.
+* Producción por lote.
+* Mermas.
+* Stock mínimo.
+
+Crear alertas automáticas cuando el inventario llegue al nivel mínimo.
+
+Cada lote debe poder registrar:
+
+* Fecha.
+* Producto.
+* Cantidad producida.
+* Cantidad disponible.
+* Merma.
+* Costo del lote.
+* Observaciones.
+
+### 5. CRM Comercial y Puntos de Venta
+
+Crear una base de datos de negocios potenciales y clientes.
+
+Registrar:
+
+* Nombre del negocio.
+* Tipo de negocio.
+* Distrito o ubicación.
+* Persona de contacto.
+* Teléfono.
+* Correo.
+* Redes sociales.
+* Fecha de contacto.
+* Notas.
+
+Crear un pipeline comercial con los siguientes estados:
+
+* Investigado.
+* Pendiente de contacto.
+* Contactado.
+* Muestra entregada.
+* Producto probado.
+* Interesado.
+* Negociación.
+* Cliente activo.
+* No interesado.
+
+Mostrar métricas de:
+
+* Prospectos.
+* Conversión.
+* Clientes activos.
+* Muestras entregadas.
+* Oportunidades abiertas.
+
+### 6. Ventas y Distribución
+
+Registrar todas las ventas de Xiembra.
+
+Cada venta debe incluir:
+
+* Fecha.
+* Cliente o punto de venta.
+* Producto.
+* Cantidad.
+* Precio.
+* Descuento.
+* Total.
+* Canal de venta.
+* Estado del pago.
+
+Clasificar los canales:
+
+* Venta directa.
+* Puntos de venta.
+* Cafeterías.
+* Tiendas.
+* Eventos.
+* Otros.
+
+Mostrar indicadores de ventas por:
+
+* Producto.
+* Cliente.
+* Punto de venta.
+* Canal.
+* Periodo.
+
+### 7. Finanzas Básicas
+
+Crear un módulo de control financiero interno.
+
+Registrar:
+
+* Ingresos.
+* Gastos.
+* Compras.
+* Pagos pendientes.
+* Cuentas por cobrar.
+* Cuentas por pagar.
+
+Mostrar:
+
+* Caja estimada.
+* Ingresos del mes.
+* Gastos del mes.
+* Flujo neto.
+* Cuentas pendientes.
+* Inversión en inventario.
+
+### 8. Investigación y Validación
+
+Crear un módulo para centralizar información obtenida de:
+
+* Focus groups.
+* Degustaciones.
+* Encuestas.
+* Pruebas de producto.
+* Feedback de clientes.
+* Opiniones de puntos de venta.
+
+Permitir registrar y analizar variables como:
+
+* Sabor.
+* Textura.
+* Intensidad del café.
+* Empaque.
+* Presentación.
+* Precio.
+* Intención de compra.
+* Comentarios.
+* Recomendaciones.
+
+Crear un sistema simple para identificar patrones y aprendizajes importantes.
+
+### 9. Tareas y Alertas
+
+Crear un sistema interno de tareas.
+
+Cada tarea debe incluir:
+
+* Título.
+* Área.
+* Responsable.
+* Prioridad.
+* Fecha límite.
+* Estado.
+* Notas.
+
+Estados:
+
+* Pendiente.
+* En proceso.
+* Completada.
+* Bloqueada.
+
+Mostrar alertas automáticas para:
+
+* Inventario bajo.
+* Pagos pendientes.
+* Seguimientos comerciales pendientes.
+* Tareas vencidas.
+* Productos con bajo margen.
+* Clientes sin reposición reciente.
+
+## Estructura de navegación
+
+Crear un menú lateral con:
+
+* Dashboard
+* Productos
+* Costos
+* Proveedores
+* Compras
+* Inventario
+* Producción
+* Comercial
+* Puntos de venta
+* Ventas
+* Finanzas
+* Investigación
+* Tareas
+* Configuración
+
+## Requisitos importantes
+
+La aplicación debe utilizar una base de datos centralizada y estructurada.
+
+Toda la información debe estar relacionada entre módulos. Por ejemplo:
+
+* Una compra a un proveedor debe actualizar los costos y el inventario.
+* Una producción debe consumir materias primas y aumentar productos terminados.
+* Una venta debe reducir inventario.
+* Un punto de venta debe estar relacionado con sus ventas y pedidos.
+* Los cambios de costos deben reflejarse en los cálculos de rentabilidad.
+
+Crear formularios simples para ingresar información manualmente y tablas con filtros, búsqueda y edición.
+
+Incluir indicadores visuales, gráficos y alertas.
+
+Diseñar la aplicación pensando en que Xiembra está comenzando, pero debe poder crecer sin necesidad de reconstruir todo el sistema.
+
+## Importante
+
+Esta aplicación será exclusivamente el **centro de gestión interna de Xiembra**.
+
+No desarrollar aquí un sistema completo de planificación, creación o publicación de contenido para redes sociales.
+
+En el futuro se creará una segunda aplicación especializada exclusivamente en:
+
+* Calendario de contenido.
+* Ideas de contenido.
+* Producción de publicaciones.
+* Estado de cada pieza.
+* Reels.
+* Posts.
+* Stories.
+* Campañas.
+* Métricas de redes sociales.
+
+Esta primera aplicación debe poder, en el futuro, conectarse con esa segunda aplicación para mostrar únicamente indicadores generales de marketing y resultados estratégicos.
